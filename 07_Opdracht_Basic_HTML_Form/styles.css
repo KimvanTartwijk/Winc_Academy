@@ -85,6 +85,14 @@ input {
     margin-bottom: 0.5em;
 }
 
+textarea {
+    width: 50%;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+
 ul.list {
     background-color: #85a865;
     padding: 1em;
