@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recepten</title>
+    <link rel="stylesheet" type="text/CSS" href="styles.css">
+</head>
+
+<header>
+    <p class="p-center">Stuur je favoriete recept in!</p>
+</header>
+
+<body>
+    <main>
+        <section>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>Wat is je naam?</p>
+                <input type="text" name="name" placeholder="Je naam">
+                <p>Wat is je e-mailadres?</p>
+                <input type="email" name="email" placeholder= "Je e-mailadres">
+                <p>Wat is je telefoonnummer?</p>
+                <input type="tel" name="phone" placeholder= "Je telefoonnummer">
+                <p>Wat is je leeftijd?</p>
+                <input type="number" name="age" placeholder="Je leeftijd">
+                <p>Wat is je geboortedatum?</p>
+                <input type="date" min="1922-01-01" name="birthdate">
+                <p>Wat is je geslacht?</p>
+                <input class="checking" type="radio" name="gender"><label>Vrouw</label>
+                <input class="checking" type="radio" name="gender"><label>Man</label>
+                <p>Wat is je favoriete keuken?</p>
+                <input class="checking" type="checkbox" name="favorite kitchen"><label>Frans</label>
+                <input class="checking" type="checkbox" name="favorite kitchen"><label>Italiaans</label>
+                <input class="checking" type="checkbox" name="favorite kitchen"><label>Spaans</label>
+                <input class="checking" type="checkbox" name="favorite kitchen"><label>Arabisch</label>
+                <p>Wat is je favoriete kleur?</p>
+                <input class="color" type="color" name="color">
+                <p>Vertel iets over je recept</p>
+                <textarea name="biography" placeholder= "Hoe kom je tot dit recept?"></textarea>
+                <p>Upload hier je recept</p>
+                <input class="file" type="file" name="file">
+                <p>Voeg hier de link van je website in</p>
+                <input type= "url" name= "link" placeholder= "De link van je website">
+                <br><button type="reset" name="reset">Opnieuw</button>
+                <button type="submit" name="submit">Verzenden</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
