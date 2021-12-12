@@ -499,6 +499,15 @@ hr {
     margin-right:auto;
 }
 
+.column1centreren {
+    width:90%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+    margin-bottom:auto;
+   }
+
 .mailicon, .telicon, .adresicon {
     width:10%;
     display:block;
@@ -901,27 +910,10 @@ footer a{
     .contact {
         margin: 0 4rem;
     }
-    
-    .omlijsting {
-        display:grid;
-        grid-template-rows: auto auto;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "column1 column3"
-            "column2 column3";
-    }
-
-    .column1centreren {
-        width:90%;
-        height:100%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top: 5%;
-        margin-bottom:auto;
-    }
 
     .column1 {
         grid-area: column1;
-        margin-left: 4rem;
+        margin-left: 0;
         margin-right:0;
     }
     
@@ -934,24 +926,22 @@ footer a{
         display:inline-block;
         width:10%;
         padding: 1rem 1rem 1rem 2rem;
-        vertical-align:middle;
     }
 
     .telicon {
         display:inline-block;
         width:10%;
         padding: 0rem 1rem 1rem 2rem;
-        vertical-align:middle;
     }
 
     .adresicon {
         display:inline-block;
         width:10%;
         padding: 0rem 1rem 0rem 2rem;
-        vertical-align:top;
     }
 
     .column2 {
+        width:100%;
         grid-area:column2;
         margin-left: 0;
         margin-right: 0;
@@ -973,13 +963,14 @@ footer a{
     .column3 {
         grid-area:column3;
         margin-left:0;
-        margin-right:4rem;
+        margin-right:0;
     
     .contact {
         margin: 0 4rem;
     }
 
     form {
+        width:100%;
         margin-left:4rem;
         margin-right:4rem;
     }
@@ -988,12 +979,21 @@ footer a{
         width:25%;
     }
         
+     .omlijsting {
+        display:grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "column1 column3"
+            "column2 column3";
+    }
+        
     /** Media Queries Footer **/
 
-    .facebook, .instagram, .mail {
+    img.facebook, img.instagram, img.mail {
         display:inline-block;
-        width:100px;
-        height:auto;
+        width:50px;
+        height:50px;
         margin:0;
     }
         
