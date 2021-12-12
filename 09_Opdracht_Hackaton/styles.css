@@ -915,8 +915,6 @@ footer a{
 
     .column1 {
         grid-area: column1;
-        display:inline-block;
-        width:40%;
         margin-left: 0;
         margin-right:0;
     }
@@ -945,9 +943,7 @@ footer a{
     }
 
     .column2 {
-        width:40%;
         grid-area:column2;
-        display:inline-block
         margin-left: 0;
         margin-right: 0;
         position:relative;
@@ -967,14 +963,11 @@ footer a{
     
     .column3 {
         grid-area:column3;
-        display:inline-block;
-        width:40%;
         margin-left:0;
         margin-right:0;
     
     form {
-        width:40%;
-        margin-left:0
+        margin-left:0;
         margin-right:0;
     }
         
@@ -984,8 +977,12 @@ footer a{
         
      .omlijsting {
         display:grid;
-        grid-template-rows: auto auto;
+        margin: 0 4rem 1rem 4rem;
+        padding:0;
+        column-gap:0rem;
+        row-gap:0rem;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
         grid-template-areas: 
             "column1 column3"
             "column2 column3";
