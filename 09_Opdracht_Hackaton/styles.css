@@ -187,7 +187,7 @@ li:first-child {
     display: flex;
     justify-content: center;
     margin: 0;
-    width: 50%;
+    width: 75%;
     font-size: 1em;
     background-color: rgb(77, 131, 84);
     border-radius: 1em;
@@ -562,10 +562,11 @@ textarea {
     font-size:1em;
     padding: 1rem;
     border-radius: 0;
-    width: 30%;
+    width: 50%;
     display: block;
     margin:1rem 0;
     border:0;
+    color:white;
 }
 
 /** Footer **/
