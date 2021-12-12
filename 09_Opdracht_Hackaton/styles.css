@@ -471,14 +471,6 @@ hr {
     margin: 0 3rem;
 }
 
-.omlijsting {
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "column1"
-    "column2";
-}
-
 .column1 {
     grid-area: column1;
     width:auto;
@@ -552,6 +544,7 @@ input {
     padding-bottom: 1rem;
     padding-left:1rem;
     border:0;
+    border-radius:0;
     box-sizing:border-box;
     border-bottom: 2px solid black;
 
@@ -565,6 +558,7 @@ textarea {
     padding-bottom:0;
     padding-left:1rem;
     border: 0;
+    border-radius:0;
     box-sizing: border-box;
     border-bottom: 2px solid black;
 }
@@ -579,6 +573,14 @@ textarea {
     margin:1rem 3rem;
     border:0;
     color:white;
+}
+
+.omlijsting {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "column1"
+    "column2";
 }
 
 /** Footer **/
@@ -913,6 +915,8 @@ footer a{
 
     .column1 {
         grid-area: column1;
+        display:inline-block;
+        width:40%;
         margin-left: 0;
         margin-right:0;
     }
@@ -941,8 +945,9 @@ footer a{
     }
 
     .column2 {
-        width:100%;
+        width:40%;
         grid-area:column2;
+        display:inline-block
         margin-left: 0;
         margin-right: 0;
         position:relative;
@@ -962,17 +967,15 @@ footer a{
     
     .column3 {
         grid-area:column3;
+        display:inline-block;
+        width:40%;
         margin-left:0;
         margin-right:0;
     
-    .contact {
-        margin: 0 4rem;
-    }
-
     form {
-        width:100%;
-        margin-left:4rem;
-        margin-right:4rem;
+        width:40%;
+        margin-left:0
+        margin-right:0;
     }
         
     .contactverzenden {
