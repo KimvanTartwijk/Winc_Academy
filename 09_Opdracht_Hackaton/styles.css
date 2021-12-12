@@ -293,7 +293,7 @@ a {
 #quotetekst2 {
     font-size: 0.8em;
     letter-spacing: 0.1em;
-    margin: 1rem 3rem;
+    margin: 1rem 1rem;
 }
 
 div.containers {
@@ -359,7 +359,7 @@ div.portfolio2 {
     justify-content: center;
     text-align: center;
     top: 50%;
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
@@ -408,9 +408,7 @@ figure {
 }
 
 #portrettitle, #natuurtitle {
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
+    font-size:1.5em;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 0.3em;
@@ -489,6 +487,7 @@ hr {
     font-size:1em;
     padding:2rem 2rem 2rem 1rem;
     box-sizing:border-box;
+    text-align:center;
 }
 
 .column1 span. {
@@ -503,6 +502,8 @@ hr {
     width:10%;
     display:block;
     padding:1rem;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .column2 {
@@ -537,7 +538,7 @@ input {
     width:100%;
     font-size: 1rem;
     font-family:Arial, Helvetica, sans-serif;
-    padding-top:2rem;
+    padding-top:1rem;
     padding-bottom: 1rem;
     padding-left:1rem;
     margin: 1rem 0;
@@ -551,7 +552,7 @@ textarea {
     width: 100%;
     font-size: 1em;
     font-family:Arial, Helvetica, sans-serif;
-    padding-top: 10rem;
+    padding-top: 6rem;
     padding-bottom:0;
     margin:1rem 0;
     border: 0;
@@ -898,9 +899,10 @@ footer a{
     /** Media Queries Contact **/
     .omlijsting {
         display:grid;
-        grid-template-rows: auto;
+        grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "column1 column2";
+        grid-template-areas: "column1 column3"
+            "column2 column3;
     }
 
     .column1centreren {
@@ -919,8 +921,8 @@ footer a{
     }
     
     .column1 span {
-    display:inline-block;
-    padding-left:0.5rem;
+        display:inline-block;
+        padding-left:0.5rem;
     }
 
     .mailicon {
@@ -947,7 +949,7 @@ footer a{
     .column2 {
         grid-area:column2;
         margin-left: 0;
-        margin-right: 4rem;
+        margin-right: 0;
         position:relative;
         padding-bottom: 56.25%;
         padding-top:30px;
@@ -962,6 +964,11 @@ footer a{
         top:0;
         left:0;
     }
+    
+    .column3 {
+        grid-area:column3;
+        margin-left:0;
+        margin-right:4rem;
     
     .contact {
         margin: 0 4rem;
