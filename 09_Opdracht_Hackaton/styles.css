@@ -54,6 +54,7 @@ header {
     display:block;
     max-width:5em;
     max-height:5em;
+    margin-top:0.5rem;
 }
 .nav_checkbox {
     display:none;
@@ -138,9 +139,9 @@ li:first-child {
 }
 
 #quotetext {
-    font-size: 0.8em;
+    font-size: 0.6em;
     letter-spacing: 0.1em;
-    margin: 1vw 7vw;
+    margin: 1rem 0.5rem;
 }
 
 /** Over mij op index.html **/
@@ -187,7 +188,7 @@ li:first-child {
     display: flex;
     justify-content: center;
     margin: 0;
-    width: 75%;
+    width: 100%;
     font-size: 1em;
     background-color: rgb(77, 131, 84);
     border-radius: 1em;
@@ -226,8 +227,18 @@ a {
     border:0;
 }
 
-.portretfotoindex, .natuurfotoindex {
+.natuurfotoindex {
     width:100%;
+    max-height:100vw;
+    position: relative;
+    margin:0;
+    padding:0;
+    border: 0;
+    object-fit:cover;
+}
+
+.portretfotoindex {
+    width:200%;
     max-height:100vw;
     position: relative;
     margin:0;
@@ -246,12 +257,11 @@ a {
     justify-content: center;
     text-align: center;
     top: 80vw;
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
     color: white;
-    font-size: 2em;
     font-weight: bold;
     font-variant:small-caps;
     line-height: 0.8em;
@@ -272,16 +282,18 @@ a {
 }
 
 #quotetitle2 {
-    font-size: 2em;
+    width:auto;
+    margin-left:1rem;
+    margin-right:1rem;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 0.3em;
 }
 
 #quotetekst2 {
-    font-size: 1em;
+    font-size: 0.8em;
     letter-spacing: 0.1em;
-    margin: 1vw 7vw;
+    margin: 1rem 3rem;
 }
 
 div.containers {
@@ -396,7 +408,9 @@ figure {
 }
 
 #portrettitle, #natuurtitle {
-    font-size: 1em;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 0.3em;
@@ -469,38 +483,26 @@ hr {
 .column1 {
     grid-area: column1;
     width:auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     background-color:rgb(77, 131, 84);
     font-size:1em;
     padding:2rem 2rem 2rem 1rem;
     box-sizing:border-box;
 }
 
-.column1 span {
-    display:inline-block;
-    padding-left:0.5rem;
+.column1 span. {
+    display:block;
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-.mailicon {
-    display:inline-block;
+.mailicon, .telicon, .adresicon {
     width:10%;
-    padding: 1rem 1rem 1rem 2rem;
-    vertical-align:middle;
-}
-
-.telicon {
-    display:inline-block;
-    width:10%;
-    padding: 0rem 1rem 1rem 2rem;
-    vertical-align:middle;
-}
-
-.adresicon {
-    display:inline-block;
-    width:10%;
-    padding: 0rem 1rem 0rem 2rem;
-    vertical-align:top;
+    display:block;
+    padding:1rem;
 }
 
 .column2 {
@@ -590,7 +592,7 @@ footer a{
 }
 
 .footermenu {
-    margin:2rem;
+    justify-content:space-between;
 }
 
 .facebook, .instagram, .mail {
@@ -608,7 +610,9 @@ footer a{
 .copyright {
     text-align: center;
     font-variant: small-caps;
-    font-size: 0.7em;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
     line-height:1em;
     padding-top: 3rem;
     letter-spacing: 0.1em;
@@ -668,6 +672,10 @@ footer a{
         margin:1rem 8rem;
     }
 
+    #quotetext {
+        font-size: 0.8em;
+    }
+        
     #id {
         display:grid;
         width:100%;
@@ -908,6 +916,32 @@ footer a{
         grid-area: column1;
         margin-left: 4rem;
         margin-right:0;
+    }
+    
+    .column1 span {
+    display:inline-block;
+    padding-left:0.5rem;
+    }
+
+    .mailicon {
+        display:inline-block;
+        width:10%;
+        padding: 1rem 1rem 1rem 2rem;
+        vertical-align:middle;
+    }
+
+    .telicon {
+        display:inline-block;
+        width:10%;
+        padding: 0rem 1rem 1rem 2rem;
+        vertical-align:middle;
+    }
+
+    .adresicon {
+        display:inline-block;
+        width:10%;
+        padding: 0rem 1rem 0rem 2rem;
+        vertical-align:top;
     }
 
     .column2 {
