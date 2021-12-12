@@ -537,12 +537,11 @@ form {
 
 input {
     width:auto;
+    margin:1rem 3rem;
     font-size: 1em;
-    font-family:Arial, Helvetica, sans-serif;
     padding-top:1rem;
     padding-bottom: 1rem;
     padding-left:1rem;
-    margin: 1rem 3rem;
     border:0;
     box-sizing:border-box;
     border-bottom: 2px solid black;
@@ -550,12 +549,12 @@ input {
 }
 
 textarea {
-    width: 100%;
+    width:auto;
+    margin:1rem 3rem;
     font-size: 1em;
-    font-family:Arial, Helvetica, sans-serif;
     padding-top: 6rem;
     padding-bottom:0;
-    margin:1rem 3rem;
+    padding-left:1rem;
     border: 0;
     box-sizing: border-box;
     border-bottom: 2px solid black;
