@@ -536,8 +536,8 @@ form {
 }
 
 input {
-    width:100%;
-    font-size: 1rem;
+    width:auto;
+    font-size: 1em;
     font-family:Arial, Helvetica, sans-serif;
     padding-top:1rem;
     padding-bottom: 1rem;
@@ -845,6 +845,10 @@ footer a{
         margin-left: 1rem;
         margin-right: 1rem;
         margin-bottom: 0.5rem;
+    }
+    
+    #portrettitle, #natuurtitle {
+        font-size:1em;
     }
 
     .gallery {
