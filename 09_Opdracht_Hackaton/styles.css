@@ -922,21 +922,21 @@ footer a{
 
     .mailicon {
         display:inline-block;
-        width:5%;
+        width:10%;
         padding: 1rem 1rem 1rem 2rem;
         vertical-align:middle;
     }
 
     .telicon {
         display:inline-block;
-        width:5%;
+        width:10%;
         padding: 0rem 1rem 1rem 2rem;
         vertical-align:middle;
     }
 
     .adresicon {
         display:inline-block;
-        width:5%;
+        width:10%;
         padding: 0rem 1rem 0rem 2rem;
         vertical-align:top;
     }
@@ -978,7 +978,7 @@ footer a{
 
     .facebook, .instagram, .mail {
         display:inline-block;
-        width:1%;
+        width:1vw;
         margin:0;
     }
         
