@@ -985,6 +985,10 @@ footer a{
         margin-right:4rem;
     }
         
+    .contactverzenden {
+        width:25%;
+    }
+        
     /** Media Queries Footer **/
 
     .facebook, .instagram, .mail {
