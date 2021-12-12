@@ -54,7 +54,7 @@ header {
     display:block;
     max-width:5em;
     max-height:5em;
-    margin-top:0.5rem;
+    margin-top:0.1rem;
 }
 .nav_checkbox {
     display:none;
@@ -256,10 +256,9 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    top: 80vw;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    top: 50w;
+    width: 100%;
+    font-size:1.5em;
     z-index: 1;
     color: white;
     font-weight: bold;
@@ -743,11 +742,11 @@ footer a{
         display: flex;
         justify-content: center;
         text-align: center;
-        top: 40vw;
+        top: 50vw;
         width: 100%;
         z-index: 1;
         color: white;
-        font-size: 1.5em;
+        font-size: 2.5em;
         font-weight: bold;
         font-variant:small-caps;
         line-height: 0.8em;
@@ -977,7 +976,7 @@ footer a{
 
     .facebook, .instagram, .mail {
         display:inline-block;
-        width:3%;
+        width:1%;
         margin:0;
     }
         
