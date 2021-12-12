@@ -268,6 +268,7 @@ a {
     font-variant:small-caps;
     line-height: 0.8em;
     letter-spacing: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /** Quote op portfolio.html **/
@@ -321,7 +322,6 @@ div.portfolio1 {
     border: 0;
 }
 
-
 div.containerportfolio2{
     grid-area:containerportfolio2;
     width: auto;
@@ -359,13 +359,13 @@ div.portfolio2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    top: 50%;
-    width: 80%;
+    top: 50vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     font-variant:small-caps;
     line-height: 0.8em;
@@ -542,7 +542,7 @@ input {
     padding-top:1rem;
     padding-bottom: 1rem;
     padding-left:1rem;
-    margin: 1rem 0;
+    margin: 1rem 3rem;
     border:0;
     box-sizing:border-box;
     border-bottom: 2px solid black;
@@ -754,6 +754,7 @@ footer a{
         font-variant:small-caps;
         line-height: 0.8em;
         letter-spacing: 0.2em;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     /** Media Queries Portfolio.html**/
@@ -783,7 +784,7 @@ footer a{
     }
     
     #titleleft3, #titleright4 {
-        font-size:1.5em;
+        font-size:3em;
     }
 
     .portretfotoportfolio {
