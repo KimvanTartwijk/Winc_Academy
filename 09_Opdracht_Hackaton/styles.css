@@ -207,13 +207,21 @@ a {
     text-decoration: none;
 }
 
-.container1, .container2 {
+.container1 {
     width: 100%;
     height:100vw;
     margin-bottom: 0;
     padding-bottom:0;
     border:0;
 }
+
+.container2 {
+    width:100%;
+    height:200vw;
+    object-fit:cover;
+    margin-bottom:0;
+    padding-bottom:0;
+    border:0;
 
 .gallery1, .gallery2 {
     display: grid;
@@ -396,7 +404,7 @@ figure {
 }
 
 #portrettitle, #natuurtitle {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 0.3em;
@@ -473,13 +481,13 @@ hr {
     margin-right: 3rem;
     background-color:rgb(77, 131, 84);
     font-size:1em;
-    padding:2rem 2rem 2rem 1rem;
+    padding:2rem 2rem 2rem 0.5rem;
     box-sizing:border-box;
 }
 
 .column1 span {
     display:inline-block;
-    padding-left:1rem;
+    padding-left:0.5rem;
 }
 
 .mailicon {
