@@ -784,7 +784,8 @@ footer a{
     }
     
     #titleleft3, #titleright4 {
-        font-size:3em;
+        font-size:2.5em;
+        top:15vw;
     }
 
     .portretfotoportfolio {
