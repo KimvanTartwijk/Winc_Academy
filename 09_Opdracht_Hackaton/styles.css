@@ -555,7 +555,7 @@ textarea {
     font-family:Arial, Helvetica, sans-serif;
     padding-top: 6rem;
     padding-bottom:0;
-    margin:1rem 0;
+    margin:1rem 3rem;
     border: 0;
     box-sizing: border-box;
     border-bottom: 2px solid black;
@@ -568,7 +568,7 @@ textarea {
     border-radius: 0;
     width: 50%;
     display: block;
-    margin:1rem 0;
+    margin:1rem 3rem;
     border:0;
     color:white;
 }
@@ -895,12 +895,16 @@ footer a{
 
     /** Media Queries Contact **/
     
+    .contact {
+        margin: 0 4rem;
+    }
+    
     .omlijsting {
         display:grid;
         grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "column1 column3"
-            "column2 column3;
+            "column2 column3";
     }
 
     .column1centreren {
