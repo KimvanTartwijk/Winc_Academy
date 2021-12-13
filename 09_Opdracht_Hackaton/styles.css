@@ -624,8 +624,8 @@ footer a{
 
 .facebook, .instagram, .mail {
     display:inline-block;
-    width:5vw;
-    height:5vw;
+    width:3vw;
+    height:3vw;
     margin:0;
     padding:0;
 }
@@ -1023,19 +1023,14 @@ footer a{
         padding:0;
         column-gap:0rem;
         row-gap:0rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto;
         grid-template-areas: 
-            "column1 column2";
-         "column3 column3"
+            "column1 column3";
+         "column2 column3"
     }
         
     /** Media Queries Footer **/
-        
-    .facebook, .instagram, .mail {
-        width:5vw;
-        height:5vw;
-    }
         
     .footermenu {
         margin:0 2rem;
