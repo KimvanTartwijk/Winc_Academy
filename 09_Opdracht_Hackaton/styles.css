@@ -540,6 +540,7 @@ iframe, object, embed {
 }
 
 form {
+    grid-area:column3;
     text-align: center;
     width: auto;
     margin-left: 3rem;
@@ -593,9 +594,10 @@ textarea {
 .contactcontainers {
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: "column1"
-    "column2";
+    "column2"
+    "column3";
 }
 
 /** Footer **/
@@ -1009,9 +1011,9 @@ footer a{
     
     .column1 span {
         display:inline-block;
-        padding-left:0.5rem;
+        padding-left:0;
         text-align:left;
-        width:80%;
+        width:50%;
         margin-left:0.5rem;
     }
 
@@ -1065,7 +1067,7 @@ footer a{
     }
     
     form {
-        margin-right:4rem;
+        margin-right:0;
         grid-area:column3;
     }
         
