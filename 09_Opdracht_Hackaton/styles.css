@@ -952,6 +952,7 @@ footer a{
         display:inline-block;
         width:auto;
         height:25vw;
+        min-height:400px;
         margin-left: 4rem;
         margin-right:0;
     }
