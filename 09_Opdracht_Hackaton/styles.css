@@ -620,7 +620,7 @@ footer a{
     text-decoration: none;
     color:white;
     padding: 0rem 1rem;
-    margin: 0rem;
+    margin:0;
     font-size:0.8em;
 }
 
@@ -1097,10 +1097,18 @@ footer a{
     }
     
     #titleleft3, #titleright4 {
-        font-size:1em;
+        font-size:0.5em;
     }
     
     #portrettitle, #natuurtitle {
-        font-size:0.5em;
+        font-size:0.2em;
+    }
+    
+    footer a{
+        padding:0;
+    }
+
+    .footermenu {
+        margin:0;
     }
 }
