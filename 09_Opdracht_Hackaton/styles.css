@@ -1006,7 +1006,7 @@ footer a{
         position:relative;
         padding-bottom: 56.25%;
         padding-top:30px;
-        height:4.4vw;
+        height:0;
         overflow:hidden;
     }
 
@@ -1060,5 +1060,16 @@ footer a{
     
     body {
         font-size:1.4em;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px){
+    
+    #titleleft, #titleright{
+        font-size: 2em;
+    }
+        
+    #titleleft3, #titleright4 {
+        font-size:1.5em;
     }
 }
