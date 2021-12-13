@@ -622,7 +622,8 @@ footer a{
 
 .facebook, .instagram, .mail {
     display:inline-block;
-    width:10%;
+    width:2vw;
+    height:2vw;
     margin:0;
     padding:0;
 }
