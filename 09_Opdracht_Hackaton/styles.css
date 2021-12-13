@@ -951,6 +951,7 @@ footer a{
         grid-area: column1;
         display:inline-block;
         width:auto;
+        height:50vw;
         margin-left: 4rem;
         margin-right:0;
     }
@@ -958,24 +959,30 @@ footer a{
     .column1 span {
         display:inline-block;
         padding-left:0.5rem;
+        text-align:left;
+        width:80%;
+        margin-left:0.5rem;
     }
 
     .mailicon {
         display:inline-block;
         width:10%;
         padding: 1rem 0.5rem;
+        margin-left:1rem;
     }
 
     .telicon {
         display:inline-block;
         width:10%;
         padding: 1rem 0.5rem;
+        margin-left:1rem;
     }
 
     .adresicon {
         display:inline-block;
         width:10%;
         padding: 1rem 0.5rem;
+        margin-left:1rem;
     }
 
     .column1centreren {
@@ -994,7 +1001,7 @@ footer a{
         position:relative;
         padding-bottom: 56.25%;
         padding-top:30px;
-        height:0;
+        height:50vw;
         overflow:hidden;
     }
 
@@ -1013,7 +1020,7 @@ footer a{
     }
         
     .contactverzenden {
-        width:25%;
+        width:50%;
     }
         
      .contactcontainers {
