@@ -975,6 +975,15 @@ footer a{
         padding: 0rem 1rem 0rem 2rem;
     }
 
+    .column1centreren {
+        width:auto;
+        height:auto;
+        margin-left:4rem;
+        margin-right:0;
+        margin-top: 5%;
+        margin-bottom:0;
+    }
+
     .column2 {
         grid-area:column2;
         display:inline-block;
