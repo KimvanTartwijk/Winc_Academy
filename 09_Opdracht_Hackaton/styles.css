@@ -1024,10 +1024,10 @@ footer a{
         padding:0;
         column-gap:0rem;
         row-gap:0rem;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas:
-         "column1 column2 column3";
+         "column1 column2";
     }
         
     /** Media Queries Footer **/
