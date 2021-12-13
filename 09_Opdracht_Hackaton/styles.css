@@ -946,6 +946,8 @@ footer a{
 
     .column1 {
         grid-area: column1;
+        display:inline-block;
+        width:40%;
         margin-left: 4rem;
         margin-right:0;
     }
@@ -975,6 +977,7 @@ footer a{
 
     .column2 {
         grid-area:column2;
+        display:inline-block;
         margin-left: 0;
         margin-right: 0;
         position:relative;
@@ -994,7 +997,6 @@ footer a{
     
     .column3 {
         grid-area:column3;
-        width:40vw;
         margin-left:0;
         margin-right:0;
     
