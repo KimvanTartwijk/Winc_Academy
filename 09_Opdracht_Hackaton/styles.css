@@ -273,9 +273,8 @@ a {
     justify-content: center;
     text-align: center;
     top: 50vw;
-    width: 75%;
-    margin-left:auto;
-    margin-right:auto;
+    width: 100%;
+    font-size:1.25em;
     z-index: 1;
     color: white;
     font-weight: bold;
@@ -368,18 +367,20 @@ div.portfolio2 {
     opacity: 0.5;
 }
 
-#titleleft3, #titleright4{
+#titleleft3, #titleright4 {
     position: absolute;
     justify-content: center;
     text-align: center;
     top: 25vw;
-    width: auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
     color: white;
+    font-size: 1.25em;
     font-weight: bold;
     font-variant:small-caps;
+    line-height: 0.8em;
     letter-spacing: 0.2em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -420,12 +421,15 @@ figure {
 }
 
 #portrettitle, #natuurtitle {
-    width:75%;
+    width:100%;
+    font-size:1.5em;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 0.3em;
     text-align: left;
     padding:5rem 0 2rem 0.5rem;
+    margin-left:1rem;
+    margin-right:1rem;
 }
 
 /** Main op info.html **/
@@ -1086,5 +1090,17 @@ footer a{
     body {
         font-size:0.6em;
     }
-   
+    
+    #titleleft, #titleright {
+        font-size:1em;
+        margin-left:2rem;
+    }
+    
+    #titleleft3, #titleright4 {
+        font-size:1em;
+    }
+    
+    #portrettitle, #natuurtitle {
+        font-size:0.5em;
+    }
 }
