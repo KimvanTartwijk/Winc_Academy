@@ -974,11 +974,18 @@ footer a{
 
 }
 
-@media only screen and (min-width:500px) and (max-width:1024px){
+@media only screen and (min-width:500px){
     
     form, .input, .textarea {
         width:80%;
         display:block;
+    }
+    
+@media only screen and (min-width:500px) and (max-width:1024px){
+    
+    column1 {
+        margin-left:4rem;
+        margin-right:4rem;
     }
     
     #titleleft, #titleright {
@@ -1003,7 +1010,7 @@ footer a{
     .column1 span {
         display:inline-block;
         padding-left:0.5rem;
-        text-align:center;
+        text-align:left;
         width:80%;
         margin-left:0.5rem;
     }
