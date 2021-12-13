@@ -951,7 +951,7 @@ footer a{
         grid-area: column1;
         display:inline-block;
         width:auto;
-        height:25vw;
+        height:fit-content;
         margin-left: 4rem;
         margin-right:0;
     }
