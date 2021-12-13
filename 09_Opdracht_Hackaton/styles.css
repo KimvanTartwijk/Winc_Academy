@@ -542,7 +542,7 @@ iframe, object, embed {
 form {
     grid-area:column3;
     text-align: center;
-    width: 85%;
+    width: 80%;
     margin-left: 3rem;
     margin-right: 3rem;
     box-sizing: border-box;
@@ -550,7 +550,7 @@ form {
 }
 
 input {
-    width:85%;
+    width:80%;
     display:block;
     margin:1rem 3rem 1rem 3rem;
     font-size: 1em;
@@ -566,7 +566,7 @@ input {
 }
 
 textarea {
-    width:85%;
+    width:80%;
     margin:1rem 3rem 1rem 3rem;
     font-size: 1em;
     padding-top: 6rem;
@@ -1015,8 +1015,8 @@ footer a{
         width:50%;
         margin-left:0.5rem;
         vertical-align:middle;
-        padding-bottom:1rem;
-        margin-bottom:1rem;
+        padding-bottom:2rem;
+        margin-bottom:2rem;
     }
 
     .mailicon {
@@ -1072,6 +1072,7 @@ footer a{
         margin-right:0;
         width:100%;
         grid-area:column3;
+        box-sizing:border-box;
     }
         
      .contactcontainers {
