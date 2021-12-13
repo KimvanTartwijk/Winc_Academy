@@ -961,34 +961,34 @@ footer a{
     .mailicon {
         display:inline-block;
         width:10%;
-        padding: 1rem 1rem 1rem 2rem;
+        padding: 1rem 0.5rem;
     }
 
     .telicon {
         display:inline-block;
         width:10%;
-        padding: 0rem 1rem 1rem 2rem;
+        padding: 1rem 0.5rem;
     }
 
     .adresicon {
         display:inline-block;
         width:10%;
-        padding: 0rem 1rem 0rem 2rem;
+        padding: 1rem 0.5rem;
     }
 
     .column1centreren {
         width:auto;
         height:auto;
-        margin-left:4rem;
+        margin-left:1rem;
         margin-right:0;
-        margin-top: 5%;
+        margin-top: 0;
         margin-bottom:0;
     }
 
     .column2 {
         grid-area:column2;
         margin-left: 0;
-        margin-right: 4rem;
+        margin-right: 2rem;
         position:relative;
         padding-bottom: 56.25%;
         padding-top:30px;
@@ -1016,7 +1016,7 @@ footer a{
         
      .contactcontainers {
         display:grid;
-        margin: 0 4rem 1rem 4rem;
+        margin: 0;
         padding:0;
         column-gap:0rem;
         row-gap:0rem;
