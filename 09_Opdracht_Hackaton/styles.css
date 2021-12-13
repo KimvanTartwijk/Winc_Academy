@@ -946,8 +946,7 @@ footer a{
 
     .column1 {
         grid-area: column1;
-        width:40vw;
-        margin-left: 0;
+        margin-left: 4rem;
         margin-right:0;
     }
     
@@ -976,7 +975,6 @@ footer a{
 
     .column2 {
         grid-area:column2;
-        width:40vw;
         margin-left: 0;
         margin-right: 0;
         position:relative;
@@ -1016,10 +1014,9 @@ footer a{
         column-gap:0rem;
         row-gap:0rem;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto;
         grid-template-areas: 
-            "column1 column3"
-            "column2 column3";
+            "column1 column2";
     }
         
     /** Media Queries Footer **/
