@@ -1032,12 +1032,13 @@ footer a{
         
     /** Media Queries Footer **/
 
-.facebook, .instagram, .mail {
-    display:inline-block;
-    width:25px;
-    margin:0;
-    padding:0;
-}
+    .facebook, .instagram, .mail {
+        display:inline-block;
+        width:25px;
+        margin-left:10rem;
+        padding:0;
+        background-color:red;
+    }
         
     .footermenu {
         margin:0 2rem;
