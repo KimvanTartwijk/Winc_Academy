@@ -913,6 +913,13 @@ footer a{
         display: block;
     }
     
+    .natuur_item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
     .portret_item5, .natuur_item4 {
         grid-column-start: 2;
         grid-column-end: 4;
