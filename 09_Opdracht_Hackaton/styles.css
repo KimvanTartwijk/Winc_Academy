@@ -987,7 +987,7 @@ footer a{
 
     .column1centreren {
         width:auto;
-        height-max:25vw;
+        height:fit-content;
         margin-left:1rem;
         margin-right:0;
         margin-top: 0;
