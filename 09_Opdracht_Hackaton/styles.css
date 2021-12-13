@@ -527,7 +527,7 @@ hr {
     position:relative;
     padding-bottom: 56.25%;
     padding-top:30px;
-    height:0;
+    height:4.4vw;
     overflow:hidden;
 }
 
@@ -541,7 +541,7 @@ iframe, object, embed {
 
 form {
     text-align: center;
-    width: auto;
+    width: 100%;
     margin-left: 3rem;
     margin-right: 1rem;
     box-sizing: border-box;
@@ -549,7 +549,7 @@ form {
 }
 
 input {
-    width:auto;
+    width:100%;
     margin:1rem 1rem 1rem 3rem;
     font-size: 1em;
     padding-top:1rem;
@@ -1017,27 +1017,9 @@ footer a{
         top:0;
         left:0;
     }
-    
-    form {
-        margin:0;
-        grid-area:column3;
-    }
         
     .contactverzenden {
         width:50%;
-    }
-        
-     .contactcontainers {
-        display:grid;
-        margin: 0;
-        padding:0;
-        column-gap:0rem;
-        row-gap:0rem;
-        box-sizing:border-box;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-         "column1 column2 column3"
     }
         
     /** Media Queries Footer **/
@@ -1056,6 +1038,17 @@ footer a{
 
 }
 
+@media only screen and (min-width:800px) and (max-width:1024px){
+    
+    #titleleft, #titleright{
+        font-size: 1.5em;
+    }
+        
+    #titleleft3, #titleright4 {
+        font-size:1em;
+    }
+}
+
 @media only screen and (min-width:500px) and (max-width:800px){
     
     body {
@@ -1063,13 +1056,23 @@ footer a{
     }
 }
 
-@media only screen and (min-width:800px) and (max-width:1024px){
+@media only screen and (min-width:1024px){
     
-    #titleleft, #titleright{
-        font-size: 2em;
+     .contactcontainers {
+        display:grid;
+        margin: 0;
+        padding:0;
+        column-gap:0rem;
+        row-gap:0rem;
+        box-sizing:border-box;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+         "column1 column2 column3"
     }
-        
-    #titleleft3, #titleright4 {
-        font-size:1.5em;
+    
+        form {
+        margin:0;
+        grid-area:column3;
     }
 }
