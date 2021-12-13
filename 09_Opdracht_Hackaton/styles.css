@@ -987,7 +987,6 @@ footer a{
 
     .column1centreren {
         width:auto;
-        height:fit-content;
         margin-left:1rem;
         margin-right:0;
         margin-top: 0;
@@ -1001,7 +1000,7 @@ footer a{
         position:relative;
         padding-bottom: 56.25%;
         padding-top:30px;
-        height:4.1vw;
+        height:fit-content;
         overflow:hidden;
     }
 
