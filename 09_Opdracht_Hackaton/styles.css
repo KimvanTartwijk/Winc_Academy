@@ -1015,6 +1015,8 @@ footer a{
         text-align:left;
         width:50%;
         margin-left:0.5rem;
+        padding-top:0;
+        margin-top:0;
     }
 
     .mailicon {
