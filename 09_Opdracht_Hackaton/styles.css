@@ -1088,5 +1088,10 @@ footer a{
          "column1 column3"
          "column2 column2"
     }
+    
+@media only screen and (max-width:400px) {
+    body {
+        font-size:0.6em;
+    }
    
 }
