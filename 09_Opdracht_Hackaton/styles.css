@@ -118,7 +118,7 @@ li:first-child {
 
 .toppicture {
     width: 100%;
-    height: 50vw;
+    height: 100%;
     object-fit:fill;
 }
 
@@ -698,7 +698,7 @@ footer a{
     /** Media Queries index.html **/
    
     .toppicture {
-        height: 100%;
+        height: 50vw;
     }
     
     #quote {
