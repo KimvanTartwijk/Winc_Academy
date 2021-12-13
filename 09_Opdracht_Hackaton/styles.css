@@ -550,6 +550,7 @@ form {
 
 input {
     width:auto;
+    display:block;
     margin:1rem 3rem 1rem 3rem;
     font-size: 1em;
     padding-top:1rem;
