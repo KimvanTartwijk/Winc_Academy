@@ -543,14 +543,14 @@ form {
     text-align: center;
     width: 100%;
     margin-left: 3rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
     box-sizing: border-box;
     padding:0;
 }
 
 input {
     width:100%;
-    margin:1rem 1rem 1rem 3rem;
+    margin:1rem 3rem 1rem 3rem;
     font-size: 1em;
     padding-top:1rem;
     padding-bottom: 1rem;
@@ -564,8 +564,8 @@ input {
 }
 
 textarea {
-    width:auto;
-    margin:1rem 1rem 1rem 3rem;
+    width:100%;
+    margin:1rem 3rem 1rem 3rem;
     font-size: 1em;
     padding-top: 6rem;
     padding-bottom:0;
