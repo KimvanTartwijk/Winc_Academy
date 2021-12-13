@@ -973,10 +973,21 @@ footer a{
 
 }
 
-@media only screen and (min-width:500px) and (max-width:1024px){
+@media only screen and (min-width:800px) and (max-width:1024px){
     
     #titleleft, #titleright{
-        font-size: 1.2em;
+        font-size: 1.5em;
+    }
+        
+    #titleleft3, #titleright4 {
+        font-size:1em;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:800px){
+    
+    #titleleft, #titleright{
+        font-size: 1em;
     }
         
     #titleleft3, #titleright4 {
