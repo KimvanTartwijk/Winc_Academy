@@ -1021,11 +1021,10 @@ footer a{
         column-gap:0rem;
         row-gap:0rem;
         box-sizing:border-box;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas:
-         "column1 column3"
-         "column2 column2"
+         "column1 column2 column3"
     }
         
     /** Media Queries Footer **/
