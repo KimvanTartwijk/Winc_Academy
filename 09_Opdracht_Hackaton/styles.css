@@ -541,6 +541,7 @@ iframe, object, embed {
 }
 
 form {
+    grid-area:column3;
     text-align: center;
     width: auto;
     margin-left: 3rem;
@@ -591,9 +592,10 @@ textarea {
 .omlijsting {
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: "column1"
-    "column2";
+    "column2"
+    "column3";
 }
 
 /** Footer **/
@@ -622,8 +624,8 @@ footer a{
 
 .facebook, .instagram, .mail {
     display:inline-block;
-    width:2vw;
-    height:2vw;
+    width:5vw;
+    height:5vw;
     margin:0;
     padding:0;
 }
@@ -1005,14 +1007,10 @@ footer a{
         left:0;
     }
     
-    .column3 {
-        grid-area:column3;
-        margin-left:0;
-        margin-right:0;
-    
     form {
         margin-left:0;
         margin-right:0;
+        grid-area:column3;
     }
         
     .contactverzenden {
@@ -1026,21 +1024,15 @@ footer a{
         column-gap:0rem;
         row-gap:0rem;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: auto auto;
         grid-template-areas: 
             "column1 column2";
+         "column3 column3"
     }
         
     /** Media Queries Footer **/
-
-    .instagram, .mail {
-        display:inline-block;
-        width:25px;
-        margin-left:10rem;
-        padding:0;
-    }
         
-    .facebook {
+    .facebook, .instagram, .mail {
         width:5vw;
         height:5vw;
     }
