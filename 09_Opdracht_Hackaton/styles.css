@@ -274,7 +274,7 @@ a {
     text-align: center;
     top: 50vw;
     width: 100%;
-    font-size:1.25em;
+    font-size:0.8em;
     z-index: 1;
     color: white;
     font-weight: bold;
@@ -694,6 +694,11 @@ footer a{
 
 
     /** Media Queries index.html **/
+   
+    .toppicture {
+    height: 100%;
+    }
+    
     #quote {
         margin:1rem 8rem;
     }
