@@ -1090,25 +1090,4 @@ footer a{
     body {
         font-size:0.6em;
     }
-    
-    #titleleft, #titleright {
-        font-size:1em;
-        margin-left:2rem;
-    }
-    
-    #titleleft3, #titleright4 {
-        font-size:0.5em;
-    }
-    
-    #portrettitle, #natuurtitle {
-        font-size:0.2em;
-    }
-    
-    footer a{
-        padding:0;
-    }
-
-    .footermenu {
-        margin:0;
-    }
 }
