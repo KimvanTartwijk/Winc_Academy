@@ -953,6 +953,38 @@ footer a{
         margin: 0 4rem;
     }
 
+    .contactverzenden {
+        width:50%;
+    }
+        
+    /** Media Queries Footer **/
+        
+    .footermenu {
+        margin:0 2rem;
+    }
+    
+    .mail {
+        margin-left:1rem;
+    }
+        
+    .copyright {
+        font-size:0.6em;
+    }
+
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px){
+    
+    #titleleft, #titleright{
+        font-size: 1.2em;
+    }
+        
+    #titleleft3, #titleright4 {
+        font-size:0.6em;
+    }
+}
+
+@media only screen and (min-width:1024px){
     .column1 {
         grid-area: column1;
         display:inline-block;
@@ -965,7 +997,7 @@ footer a{
     .column1 span {
         display:inline-block;
         padding-left:0.5rem;
-        text-align:center;
+        text-align:left;
         width:80%;
         margin-left:0.5rem;
     }
@@ -1018,39 +1050,6 @@ footer a{
         left:0;
     }
         
-    .contactverzenden {
-        width:50%;
-    }
-        
-    /** Media Queries Footer **/
-        
-    .footermenu {
-        margin:0 2rem;
-    }
-    
-    .mail {
-        margin-left:1rem;
-    }
-        
-    .copyright {
-        font-size:0.6em;
-    }
-
-}
-
-@media only screen and (min-width:800px) and (max-width:1024px){
-    
-    #titleleft, #titleright{
-        font-size: 1.2em;
-    }
-        
-    #titleleft3, #titleright4 {
-        font-size:0.6em;
-    }
-}
-
-@media only screen and (min-width:1024px){
-    
      .contactcontainers {
         display:grid;
         margin: 0;
