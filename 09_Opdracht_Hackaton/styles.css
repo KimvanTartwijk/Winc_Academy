@@ -792,7 +792,7 @@ footer a{
         width: 100%;
         z-index: 1;
         color: white;
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: bold;
         font-variant:small-caps;
         line-height: 0.8em;
@@ -827,7 +827,7 @@ footer a{
     }
     
     #titleleft3, #titleright4 {
-        font-size:2.5em;
+        font-size:2em;
         top:15vw;
     }
 
@@ -973,26 +973,12 @@ footer a{
 
 }
 
-@media only screen and (min-width:800px) and (max-width:1024px){
+@media only screen and (min-width:500px) and (max-width:1024px){
     
-    #titleleft, #titleright{
-        font-size: 1.5em;
+    form, .input, .textarea {
+        width:80%;
     }
-        
-    #titleleft3, #titleright4 {
-        font-size:1em;
-    }
-}
-
-@media only screen and (min-width:500px) and (max-width:800px){
     
-    #titleleft, #titleright{
-        font-size: 1em;
-    }
-        
-    #titleleft3, #titleright4 {
-        font-size:0.6em;
-    }
 }
 
 @media only screen and (min-width:1024px){
