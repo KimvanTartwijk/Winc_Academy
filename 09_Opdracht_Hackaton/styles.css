@@ -975,7 +975,8 @@ footer a{
         width:100vw;
         display:block;
     }
-    
+}
+
 @media only screen and (min-width:500px) and (max-width:1024px){
     
     column1 {
@@ -1074,8 +1075,9 @@ footer a{
          "column1 column3"
          "column2 column2"
     }
+    }
     
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1024px) {
     body {
         font-size:0.6em;
     }
