@@ -951,7 +951,7 @@ footer a{
         grid-area: column1;
         display:inline-block;
         width:auto;
-        height:30%;
+        height:30vw;
         margin-left: 4rem;
         margin-right:0;
     }
@@ -1001,7 +1001,7 @@ footer a{
         position:relative;
         padding-bottom: 56.25%;
         padding-top:30px;
-        height:30%;
+        height:30vw;
         overflow:hidden;
     }
 
