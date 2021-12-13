@@ -164,7 +164,7 @@ li:first-child {
     border-radius: 50%;
 }
 
-.indextitle{
+.indextitle {
     grid-area:indextitle;
     width:100%;
     color: rgb(77, 131, 84);
@@ -180,7 +180,7 @@ li:first-child {
 
 .idtext {
     grid-area:idtext;
-    width: 50%;
+    width: 80%;
     margin: 0;
     margin-left:auto;
     margin-right:auto;
@@ -274,9 +274,10 @@ a {
     justify-content: center;
     text-align: center;
     top: 50vw;
-    width: auto;
-    margin-left:1rem;
-    margin-right:1rem;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1.5rem;
     z-index: 1;
     color: white;
     font-weight: bold;
@@ -375,7 +376,7 @@ div.portfolio2 {
     justify-content: center;
     text-align: center;
     top: 25vw;
-    width: auto;
+    width: 75%;
     margin-left: 1rem;
     margin-right: 1rem;
     z-index: 1;
@@ -424,7 +425,7 @@ figure {
 }
 
 #portrettitle, #natuurtitle {
-    width:auto;
+    width:75%;
     margin-left:1rem;
     margin-right:1rem;
     font-weight: bold;
@@ -623,6 +624,7 @@ footer a{
     color:white;
     padding: 0rem;
     margin: 0rem;
+    font-size:0.8em;
 }
 
 .footermenu {
@@ -631,15 +633,15 @@ footer a{
 
 .facebook, .instagram, .mail {
     display:inline-block;
-    width:3vw;
-    height:3vw;
+    width:4vw;
+    height:4vw;
     margin:0;
-    padding:0;
+    padding:0 1rem;
 }
 
 .mail {
-    padding-left:0;
-    padding-right:1rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
 }
 
 .copyright {
@@ -995,13 +997,6 @@ footer a{
         margin-right:4rem;
     }
     
-    #titleleft, #titleright {
-        font-size:2em;
-    }
-    
-    #titleleft3, #titleright4 {
-        font-size:1.5em;
-    }
 }
 
 @media only screen and (min-width:1024px){
