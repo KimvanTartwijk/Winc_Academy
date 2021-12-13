@@ -758,17 +758,17 @@ footer a{
     }
     
     .gallery1, .gallery2 {
-    display: grid;
-    position: relative;
-    grid-template-columns:repeat(2);
-    grid-template-rows: repeat(1);
-    grid-row-gap: 0;
-    margin:0;
-    padding:0;
-    border:0;
-    grid-template-areas:
+        display: grid;
+        position: relative;
+        grid-template-columns:repeat(2);
+        grid-template-rows: repeat(1);
+        grid-row-gap: 0;
+        margin:0;
+        padding:0;
+        border:0;
+        grid-template-areas:
         "container1 container2";
-}
+    }
 
     .gallery1, .gallery2{
         margin:0;
