@@ -589,7 +589,7 @@ textarea {
     color:white;
 }
 
-.omlijsting {
+.contactcontainers {
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -1018,17 +1018,16 @@ footer a{
         width:25%;
     }
         
-     .omlijsting {
+     .contactcontainers {
         display:grid;
         margin: 0 4rem 1rem 4rem;
         padding:0;
         column-gap:0rem;
         row-gap:0rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-        grid-template-areas: 
-         "column1 column3"
-         "column2 column3";
+        grid-template-areas:
+         "column1 column2 column3";
     }
         
     /** Media Queries Footer **/
