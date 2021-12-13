@@ -370,18 +370,16 @@ div.portfolio2 {
 
 #titleleft3, #titleright4{
     position: absolute;
-    display: flex;
     justify-content: center;
     text-align: center;
     top: 25vw;
-    width: 75%;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
     z-index: 1;
     color: white;
     font-weight: bold;
     font-variant:small-caps;
-    line-height: 0.8em;
     letter-spacing: 0.2em;
     font-family: Arial, Helvetica, sans-serif;
 }
