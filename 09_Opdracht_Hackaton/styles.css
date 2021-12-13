@@ -134,7 +134,9 @@ li:first-child {
 }
 
 #quotetitle {
-    font-size: 1.5em;
+    width:100%;
+    margin-left:1rem;
+    margin-right:1rem;
     font-weight:bolder;
     font-variant: small-caps;
     letter-spacing: 0.3em;
@@ -272,8 +274,9 @@ a {
     justify-content: center;
     text-align: center;
     top: 50vw;
-    width: 100%;
-    font-size:1.25em;
+    width: auto;
+    margin-left:1rem;
+    margin-right:1rem;
     z-index: 1;
     color: white;
     font-weight: bold;
@@ -372,9 +375,9 @@ div.portfolio2 {
     justify-content: center;
     text-align: center;
     top: 25vw;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
     z-index: 1;
     color: white;
     font-size: 1.25em;
@@ -421,7 +424,9 @@ figure {
 }
 
 #portrettitle, #natuurtitle {
-    font-size:0.9em;
+    width:auto;
+    margin-left:1rem;
+    margin-right:1rem;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 0.3em;
