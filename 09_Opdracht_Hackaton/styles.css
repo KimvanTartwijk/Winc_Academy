@@ -546,6 +546,7 @@ input {
     margin:0;
     font-size: 1em;
     padding:1rem;
+    margin:0;
     border:0;
     border-radius:0;
     box-sizing:border-box;
@@ -572,7 +573,7 @@ textarea {
     border-radius: 0;
     width: 50%;
     display: block;
-    margin:1rem 3rem;
+    margin:1rem 0;
     border:0;
     color:white;
 }
@@ -1064,7 +1065,6 @@ footer a{
     }
     
     form {
-        margin-right:0;
         width:auto;
         margin-left:4rem;
         margin-right:4rem;
