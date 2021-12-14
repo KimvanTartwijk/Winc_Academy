@@ -535,13 +535,14 @@ form {
     grid-area:column3;
     text-align: center;
     width: auto;
-    margin:1rem 3rem;
+    margin-left:3rem;
+    margin-right:3rem;
     box-sizing: border-box;
     padding:0;
 }
 
 input {
-    width:100%
+    width:100%;
     display:block;
     margin:0;
     font-size: 1em;
@@ -1065,7 +1066,6 @@ footer a{
     }
     
     form {
-        width:auto;
         margin-left:4rem;
         margin-right:4rem;
         grid-area:column3;
