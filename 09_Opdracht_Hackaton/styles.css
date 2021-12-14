@@ -318,6 +318,7 @@ div.containers {
     grid-template-areas: "containerportfolio1"
     "containerportfolio2";
 }
+
 div.containerportfolio1 {
     grid-area:containerportfolio1;
     width: auto;
@@ -1090,7 +1091,8 @@ footer a{
     }
     
     #portrettitle, #natuurtitle {
-        margin-right:4rem;
+        margin-right:6rem;
+        margin-left:0;
     }
     
     footer a {
@@ -1099,7 +1101,7 @@ footer a{
     
     .footermenu {
         margin:0;
-        padding:0.25rem;
+        padding:1rem;
     }
     
     .form, .input, .textarea {
