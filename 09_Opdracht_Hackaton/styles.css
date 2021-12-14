@@ -534,22 +534,18 @@ iframe, object, embed {
 form {
     grid-area:column3;
     text-align: center;
-    width: 80%;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: auto;
+    margin:1rem 3rem;
     box-sizing: border-box;
     padding:0;
 }
 
 input {
-    width:80%;
+    width:100%
     display:block;
-    margin:1rem 3rem 1rem 3rem;
+    margin:0;
     font-size: 1em;
-    padding-top:1rem;
-    padding-bottom: 1rem;
-    padding-left:1rem;
-    padding-right:0;
+    padding:1rem;
     border:0;
     border-radius:0;
     box-sizing:border-box;
@@ -558,13 +554,10 @@ input {
 }
 
 textarea {
-    width:80%;
-    margin:1rem 3rem 1rem 3rem;
+    width:100%;
+    margin:0;
     font-size: 1em;
     padding-top: 6rem;
-    padding-bottom:0;
-    padding-left:1rem;
-    padding-right:0;
     border: 0;
     border-radius:0;
     box-sizing: border-box;
@@ -973,8 +966,7 @@ footer a{
 
 @media only screen and (min-width:500px){
     
-    form, .input, .textarea {
-        width:100%;
+    .form, .input, .textarea {
         display:block;
     }
 }
@@ -1073,7 +1065,9 @@ footer a{
     
     form {
         margin-right:0;
-        width:100%;
+        width:auto;
+        margin-left:4rem;
+        margin-right:4rem;
         grid-area:column3;
         box-sizing:border-box;
     }
@@ -1121,9 +1115,5 @@ footer a{
     .footermenu {
         margin:0;
         padding:1rem;
-    }
-    
-    .form, .input, .textarea {
-        width:90%;
     }
 }
