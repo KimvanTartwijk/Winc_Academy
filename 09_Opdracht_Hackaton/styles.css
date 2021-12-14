@@ -1083,18 +1083,14 @@ footer a{
     }
     
     #titleleft3, #titleright4 {
-        width: 40%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         font-size: 0.8em;
     }
     
     #portrettitle, #natuurtitle {
-        margin-right:2rem;
-    }
-    
-    footer {
-        background-color:red;
+        margin-right:4rem;
     }
     
     footer a {
@@ -1103,11 +1099,11 @@ footer a{
     
     .footermenu {
         margin:0;
-        padding:0;
+        padding:0.25rem;
     }
     
-    .form {
-        width:50%;
+    .form, .input, .textarea {
+        width:40%;
     }
 }
     }
