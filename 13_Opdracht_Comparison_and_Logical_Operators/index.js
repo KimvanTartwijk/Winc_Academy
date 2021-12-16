@@ -34,12 +34,12 @@ if (firstName == "Sarah" || firstName == "Bram") {
     console.log("No birthday gift for you mate!")
 }
 
-if (totalAmount > 25) {
-    console.log("You get free (veggie)bitterballen!")
+if (totalAmount > 100) {
+    console.log("You get a free bottle of champagne!")
 } else if (totalAmount > 50) {
     console.log("You get a free portion of nacho's!")
-} else if (totalAmount > 100) {
-    console.log("You get a free bottle of champagne!")
+} else if (totalAmount > 25) {
+    console.log("You get free (veggie)bitterballen!")
 } else {
     console.log("Your total amount is too low for a gift.")
 }
