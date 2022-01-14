@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+title {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    margin: 0;
+    font-size: 14px;
+    z-index: 1;
+    display: flex;
+    background-color: grey;
+}
+
+.hamburger-button {
+    width: 50px;
+    height: 50px;
+    position: center;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:grey;
+}
+
+.dropdown-menu {
+    height: calc(100vh - 70px);
+    width: 0;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 58px;
+    left: -100px;
+    background-color:grey;
+    transition: 0.4s ease-in-out;
+}
+
+.dropdown-menu li{
+    color:white;
+}
+
+.dropdown-menu label {
+    display: block;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.dropdown-menu input {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    color:black;
+}
+
+main {
+    margin-top: 6rem;
+    margin-left: 70px;
+}
+
+section {
+    margin: 0.5rem;
+}
+
+.color-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+    text-transform: none;
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+}
+
+.antarctic-freeze {
+    background-color: #879ca3;
+}
+
+.grey-rocks  {
+    background-color: #c9c9ce;
+}
+
+.beach-sand {
+    background-color: #b3a8a0;
+}
+
+.atlantic-blue {
+    background-color: #80aec2;
+}
+
+.deep-pacific {
+    background-color: #3e6e7a;
+}
+
+.atlantic-storm {
+    background-color: #006994;
+}
+
+.sea-by-dark {
+    background-color: #4f7380;
+}
+
+.shallow-water {
+    background-color: #82a6b3;
+}
+
+.polar-ice {
+    background-color: #c0d2d9;
+}
