@@ -1,0 +1,20 @@
+# Exercise Comparison and Logical Operators
+An Exercise in Winc Academy's Web Development Course.
+
+## Project Goal
+
+## Tools
+Javascript
+
+## Project Requirements
+* Write a new if-statement that checks if age is between 18 years or older and 25 years and younger.
+* console.log("You get 50% off!") if that's true, and something else if it's not.
+
+Part 2: Fun action!
+* Create a new const called firstName and give the person a name.
+* Check with an if statement whether the person is entitled to a free beer on this festive day.
+* console.log() the result of your if/else statement to the console.
+
+Part 3: Anniversary discount
+* Write an if/else tree to let the visitors know which gift they will receive based on the amount of euros of his or her order.
+* Use the const named totalAmount.
