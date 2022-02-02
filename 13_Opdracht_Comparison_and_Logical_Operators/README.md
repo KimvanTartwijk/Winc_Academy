@@ -7,6 +7,7 @@ An Exercise in Winc Academy's Web Development Course.
 Javascript
 
 ## Project Requirements
+Part 1: 50% discount
 * Write a new if-statement that checks if age is between 18 years or older and 25 years and younger.
 * console.log("You get 50% off!") if that's true, and something else if it's not.
 
