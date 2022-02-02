@@ -12,7 +12,7 @@ HTML, CSS
 * Create multiple pages.
 * Use at least 5 different HTML elements.
 * Use semantic HTML elements in the right places.
-* Put CSS in a separate stylesheet (do not use inline CSS (= CSS inside of an HTML file))
+* Put CSS in a separate stylesheet (do not use inline CSS)
 * Do not use CSS frameworks.
 * Use margin, padding, or border in at least 2 different places on your website. (a.k.a: prove that you know how the box-model works)
 * Use at least 1 image.
@@ -28,7 +28,6 @@ We will pay attention to the cleanliness of your code:
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-This will make sure your website is viewed with the proper scale on mobile. Without this tag, some mobile devices will use a different resolution. When this happens, the mobile screen may end up showing CSS that was intended for desktop views.
 ```
   
 ## Project Bonus requirements
