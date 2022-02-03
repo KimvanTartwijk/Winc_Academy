@@ -2,6 +2,7 @@
 An Exercise in Winc Academy's Web Development Course.
 
 ## Project Goal
+Getting to know the CSS Basics.
 
 ## Tools
 HTML, CSS
