@@ -1,4 +1,4 @@
-# Eerste HTML Pagina
+# Exercise First HTML Page
 Winc Academy's first exercise of the Web Development Course.
 
 ## Project Goal
