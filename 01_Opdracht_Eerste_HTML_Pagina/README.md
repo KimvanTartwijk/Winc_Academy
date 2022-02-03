@@ -9,5 +9,5 @@ HTML
 
 ## Project Requirements
 * Add a title to your web page.
-* Add a <h1> and an <h2> to your web page.
+* Add a h1 and a h2 to your web page.
 * Add two paragraphs to your web page. Use a <br> in your second paragraph.
