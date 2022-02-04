@@ -1,39 +1,40 @@
 // Opdracht 1 - Person
 
 let person = {
-    name: 'Kim',
+    name: "Kim",
     age: 30,
     evaluations: [7, 10, 9]
 };
 
-console.log('Person:', person)
-console.log('Name:', person.name)
-console.log('Age:', person.age)
+console.log("Person:", person)
+console.log("Name:", person.name)
+console.log("Age:", person.age)
 
-person.name = 'Thijs'
+person.name = "Thijs"
 person.age = 29
 
 console.log("Evaluations:", person.evaluations)
 
 // Opdracht 2 - Three Colors
 
-let colors = ['orange', 'green', 'red'];
+let colors = ["orange", "green", "red"];
 
-console.log('Colors:', colors)
-console.log('Amount of colors:', colors.length)
-console.log('First Color:', colors[0])
-console.log('Last color:', colors.slice(-1)[0])
+console.log("Colors:", colors)
+console.log("Amount of colors:", colors.length)
+console.log("First Color:", colors[0])
+console.log("Last color:", colors.slice(-1)[0])
+// alternatief: console.log("Last color:", colors[colors.length - 1]);
 
 // Opdracht 2 - Four colors
 
-const colors2 = ['orange', 'green', 'red'];
-colors2.push('blue');
+const colors2 = ["orange", "green", "red"];
+colors2.push("blue");
 colors2.push(5);
 colors2.push({ greeting: "hi, I am an object" });
 
-console.log('Items:', colors2)
-console.log('Amount of items:', colors2.length)
-console.log('Last item:', colors2.slice(-1)[0])
+console.log("Items:", colors2)
+console.log("Amount of items:", colors2.length)
+console.log("Last item:", colors2.slice(-1)[0])
 
 // Opdracht 3 : Cat breeds
 
