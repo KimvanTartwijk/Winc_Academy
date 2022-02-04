@@ -5,7 +5,7 @@ An Exercise in Winc Academy's Web Development Course.
 Make a game using Javascript. The computer chooses a (semi)random number. The user tries to guess it.
 
 ## Tools
-Javascript
+HTML, Javascript
 
 ## Project Requirements
 * As a user, I want an introductory message that greets the user and asks for their name. "Welcome! What is your name?"
