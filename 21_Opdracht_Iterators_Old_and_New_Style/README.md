@@ -7,7 +7,6 @@ An Exercise in Winc Academy's Web Development Course.
 Javascript
 
 ## Project Requirements
-* Create a new folder and a new JavaScript file.
 * Create an array called colors with the colors: yellow, blue, red, orange.
 * Write a while loop that logs the colors in the console and stops when all colors are printed.
 * Use the same array as the starting point and write a for loop that logs the colors in the console and stops when all colors are printed.
