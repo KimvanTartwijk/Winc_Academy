@@ -13,16 +13,19 @@ for (let i = 0; i < colors.length; i++) {
 }
 
 // New Style - Array Methods
-colors.forEach(element => console.log(element));
+colors.forEach(color => console.log(color));
 
 // Looping through properties of an object
 const person = {
-    name: 'Kim',
+    name: "Kim",
     age: 30,
     dateOfBirth: 1991 - 08 - 06,
-    placeOfBirth: 's-Hertogenbosch',
-    favouriteColor: 'Green',
+    placeOfBirth: "s-Hertogenbosch",
+    favouriteColor: "Green",
 };
 
-let objectEntries =
-    console.log(Object.entries(person));
+// let objectEntries =
+//   console.log(Object.entries(person));
+
+for (let x in person) {
+    console.log(person[x]);
