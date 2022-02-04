@@ -5,22 +5,19 @@ An Exercise in Winc Academy's Web Development Course.
 Create an complex form in HTML for chefs that want to post their favorite recipes on a cooking website.
 
 ## Tools
-HTML
+HTML, CSS
 
 ## Form Requirements
-* name
-* email
-* telephone number (tel)
-* age
-* date of birth
-* gender (radio buttons)
-* favorite cuisine: French, Italian, Spanish, or Arabic (checkbox)
-* favorite apron color (color picker)
-* biography (text-area)
-* upload your latest recipe (file upload)
-* URL to recipe website (url)
-* button of type reset to clear the form
-* button of type submit to submit the form
-* Verify that the data gets stored in Netlify.
-* Deploy your website to Netlify.
-* Check whether all the data is stored correctly, make changes where necessary.
+* Name.
+* Email.
+* Telephone number (tel).
+* Age.
+* Date of birth.
+* Gender (radio buttons).
+* Favorite cuisine: French, Italian, Spanish, or Arabic (checkbox).
+* Favorite apron color (color picker).
+* Biography (text-area).
+* Upload your latest recipe (file upload).
+* URL to recipe website (url).
+* Button of type reset to clear the form.
+* Button of type submit to submit the form.
