@@ -2,6 +2,7 @@
 An Exercise in Winc Academy's Web Development Course.
 
 ## Project Goal
+Write an if-else statement.
 
 ## Tools
 Javascript
@@ -9,7 +10,7 @@ Javascript
 ## Project Requirements
 Part 1:
 * Create a const called age and give it a value of type number.
-* Write an if-statement that checks whether the age of the person (the input) is greater than or equal to 18 years.
+* Write an if-statement that checks whether the age of the person (the input) is greater than 18 years.
 * Console.log() a message to the console when the person is allowed in.
 * Console.log() another message when the person is too young and is kindly requested to stay outside.
 
