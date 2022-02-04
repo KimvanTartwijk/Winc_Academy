@@ -1,10 +1,10 @@
 // No Arguments
 
-const paintRed = function () {
+const paintWall = function () {
     console.log("The wall has been painted red");
 }
 
-paintRed();
+paintWall();
 
 
 // Single Argument
@@ -19,8 +19,8 @@ paintColor();
 
 // Multiple Arguments
 
-const paintWall = function (wall, color) {
-    console.log("The " + wall + " wall has been painted " + color);
+const paintWall = function (whichWall, color) {
+    console.log("The " + whichWall + " wall has been painted " + color);
 }
 
 paintWall("North", "grey");
