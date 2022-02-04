@@ -16,25 +16,25 @@ if (isFemale) {
     console.log("Unfortunately, only ladies are welcome!")
 }
 
-if (driverStatus == "bob") {
+if (driverStatus === "bob") {
     console.log("You are allowed to drive.")
 } else {
     console.log("You are not allowed to drive.")
 }
 
-if (age >= 18 && age <= 25) {
+if (age > 18 && age <= 25) {
     console.log("You get 50% off!")
 } else {
     console.log("You are paying the normal price.")
 }
 
-if (firstName == "Sarah" || firstName == "Bram") {
+if (firstName === "Sarah" || firstName === "Bram") {
     console.log("You get a free beer!")
 } else {
     console.log("No birthday gift for you mate!")
 }
 
-if (totalAmount > 100) {
+if (totalAmount >= 100) {
     console.log("You get a free bottle of champagne!")
 } else if (totalAmount > 50) {
     console.log("You get a free portion of nacho's!")
