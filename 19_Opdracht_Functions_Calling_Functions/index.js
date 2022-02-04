@@ -18,6 +18,12 @@ const greet = function (age) {
     };
 }
 
+/*
+Alternatief:
+const isAdultShort = age => age >= 18;
+const greetShort = age => (isAdult(age) ? "Hello there" : "Hey kiddo");
+*/
+
 console.log(greet(17));
 
 // Opdracht VAT Calculations, exercise 1
