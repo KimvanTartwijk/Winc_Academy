@@ -28,32 +28,18 @@ color.forEach(function (clickableColor) {
 });
 
 // When pressed on key numbers 1 to 9, the background will change to the correspondending color.
+const colors = {
+    1: "#879ca3",
+    2: "#c9c9ce",
+    3: "#b3a8a0",
+    4: "#80aec2",
+    5: "#3e6e7a",
+    6: "#006994",
+    7: "#4f7380",
+    8: "#82a6b3",
+    9: "#c0d2d9"
+}
+
 document.addEventListener('keydown', function (keyNumber) {
-    if (keyNumber.key === '1') {
-        document.body.style = "background-color: #879ca3";
-    }
-    else if (keyNumber.key === '2') {
-        document.body.style = "background-color: #c9c9ce";
-    }
-    else if (keyNumber.key === '3') {
-        document.body.style = "background-color: #b3a8a0";
-    }
-    else if (keyNumber.key === '4') {
-        document.body.style = "background-color: #80aec2";
-    }
-    else if (keyNumber.key === '5') {
-        document.body.style = "background-color: #3e6e7a";
-    }
-    else if (keyNumber.key === '6') {
-        document.body.style = "background-color: #006994";
-    }
-    else if (keyNumber.key === '7') {
-        document.body.style = "background-color: #4f7380";
-    }
-    else if (keyNumber.key === '8') {
-        document.body.style = "background-color: #82a6b3";
-    }
-    else if (keyNumber.key === '9') {
-        document.body.style = "background-color: #c0d2d9";
-    }
+    document.body.style.backgroundColor = colors[keyNumber.key];
 });
