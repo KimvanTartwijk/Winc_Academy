@@ -8,30 +8,25 @@ Create a website using HTML and CSS.
 HTML, CSS
 
 ## Project Requirements
-* Use a clear subject for your website: "My website is about...".
+* Use a clear subject for your website.
 * Create multiple pages.
 * Use at least 5 different HTML elements.
 * Use semantic HTML elements in the right places.
-* Put CSS in a separate stylesheet (do not use inline CSS)
+* Put CSS in a separate stylesheet.
 * Do not use CSS frameworks.
-* Use margin, padding, or border in at least 2 different places on your website. (a.k.a: prove that you know how the box-model works)
+* Use margin, padding, or border in at least 2 different places on your website.
 * Use at least 1 image.
 * Use at least 2 links.
 * Use media queries, making your website look different on mobile and desktop.
 * Create at least 1 form.
-* Your website should be mobile-first. Your base CSS should be for mobile devices. Use media queries to make your website look nice on desktop. Don't forget the mobile view meta-tag (see note below).
-
-We will pay attention to the cleanliness of your code:
-* Pay attention to any spelling errors (use a linter).
-* Make sure your code is formatted correctly. Use spaces and enters properly.
-* Note: Don't forget to add the following HTML meta-tag to the <head> element in index.html:
+* Your website should be mobile-first. Your base CSS should be for mobile devices. Use media queries to make your website look nice on desktop. Don't forget the mobile view meta-tag.
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
   
 ## Project Bonus requirements
-* embed a YouTube video.
+* Embed a YouTube video.
 * Use a lot of pretty images, such as those from stock photo websites.
 * Use media queries for more screen sizes, such as a tablet.
 * Use colors that work well together.
