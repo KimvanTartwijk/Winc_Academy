@@ -1,2 +1,7 @@
-# Winc_Academy
-Cursus Web Development van Winc Academy
+# Cursus Web Development
+
+## Opleider
+Winc Academy
+
+## Tools
+HTML, CSS, Javascript
