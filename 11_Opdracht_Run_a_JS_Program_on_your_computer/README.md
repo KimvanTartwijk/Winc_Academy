@@ -2,6 +2,7 @@
 An Exercise in Winc Academy's Web Development Course.
 
 ## Project Goal
+Learning to comment code.
 
 ## Tools
 Javascript
