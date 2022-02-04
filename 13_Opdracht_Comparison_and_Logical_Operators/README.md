@@ -2,13 +2,14 @@
 An Exercise in Winc Academy's Web Development Course.
 
 ## Project Goal
+Using if-else statements.
 
 ## Tools
 Javascript
 
 ## Project Requirements
 Part 1: 50% discount
-* Write a new if-statement that checks if age is between 18 years or older and 25 years and younger.
+* Write a new if-statement that checks if the age is older than 18 and 25 years or younger.
 * console.log("You get 50% off!") if that's true, and something else if it's not.
 
 Part 2: Fun action!
