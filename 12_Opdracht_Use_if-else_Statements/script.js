@@ -22,7 +22,7 @@ if (isFemale) {
 
 let driverStatus = "bob";
 
-if (driverStatus == "bob") {
+if (driverStatus === "bob") {
 
     console.log("You are allowed to drive");
 
