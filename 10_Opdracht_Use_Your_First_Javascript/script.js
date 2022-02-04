@@ -1,31 +1,28 @@
-console.log("Hello Winc Academy")
+console.log("Hello Winc Academy");
 
-let name = 'Kim';
-console.log(name)
+let myName = "Kim";
+console.log("Name:", myName)
 
 let sum = 4 + 4;
-console.log(sum)
+console.log("Sum:", sum)
 
-let sum2 = "4" + "4";
-console.log(sum2)
+let sumWithStrings = "4" + "4";
+console.log("Sum with strings:", sumWithStrings)
 
-let sum3 = 2 + 3;
-console.log(sum3)
+let subtraction = 6 - 1;
+console.log("Subtraction:", subtraction)
 
-let sum4 = 6 - 1;
-console.log(sum4)
+let multiplication = 2 * 5;
+console.log("Multiplication:", multiplication)
 
-let sum5 = 2 * 5;
-console.log(sum5)
+let division = 8 / 2;
+console.log("Division:", division)
 
-let sum6 = 8 / 2;
-console.log(sum6)
-
-let sum7 = 3 % 12;
-console.log(sum7)
+let modulus = 3 % 12;
+console.log("Modulus:", modulus)
 
 let age = 30;
-console.log(typeof 30)
+console.log("Age:", typeof age)
 
-let age2 = 'thirty';
-console.log(typeof thirty)
+let ageAsString = '30';
+console.log("Age as string:", typeof ageAsString)
