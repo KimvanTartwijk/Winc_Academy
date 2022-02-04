@@ -9,30 +9,27 @@ Javascript
 ## Project Requirements
 Part 1: Objects
 * Create an object called person.
-* person has the following key-value pairs / properties: name and age. Fill in you own name and age.
+* Add the following key-value pairs / properties: name and age.
 * Use console.log(person) and run your JavaScript program, to log your object.
 * Only log the value of name using the key name.
-* Only log age age.
+* Only log age.
 * Use dot-notation and bracket-notation to log the two properties above.
-* Create a final key-value pair in which the key is evaluations and the value [7, 10, 9]. These are the marks you've received in the past year.
+* Create a final key-value pair in which the key is evaluations and the value [7, 10, 9].
 * Log only the property evaluations. 
 
 Part 2: Arrays
 * Create a new variable containing an empty array [].
-* Fill this array with at least three different colors in the form of strings. For example: "green", "blue", "red".
+* Fill this array with at least three different colors in the form of strings.
 * Log your new array to the console.
 * Log the length of your array to the console. Use array.length.
-* Log the first element of your array to the console. In our example, this would be "green".
-* Log the last element of your array to the console, in our example: "red". Assume the amount of elements in your array is unknown. array[3] will not give the correct result if later on five elements are contained within the array.
-* Add a 4th element to your array using the push method: array.push(). The result will be something like: ["green", "blue", "red", "Yellow"]
-* Now add a digit to your array using the push method. Result: ["green", "blue", "red", "Yellow", 5]
-* Finally add an object to your array, again with the push method. The object is as follows: {greeting: "hi, I am an object"}. Result: ["green", "blue",
-"red", "Yellow", 5, {greeting: "hi, I am an object"}]
-* Log Only the greeting from the object (last element of your array), to the console.
+* Log the first element of your array to the console.
+* Log the last element of your array to the console. Assume the amount of elements in your array is unknown.
+* Add a 4th element to your array using the push method: array.push().
+* Now add a digit to your array using the push method.
+* Finally add an object to your array, again with the push method. The object is as follows: {greeting: "hi, I am an object"}.
+* Log only the greeting from the object.
 
 Part 3: A "real-life" object
-O* bjects in JavaScript can be compared with objects in real life. Therefore we will continue with an exercise using a "real" object. We have created an array that contains three cat breeds. Below you will find this array with three cat breeds and their features.
-
 ```
 Array with cat breeds
 
@@ -80,12 +77,7 @@ const catBreeds = [{
  
 * In every step use a console.log("object description", yoursolutionhere). 
 * Log the name of the last cat breed.
-* Name cat breed 3: American Bobtail
 * Log the energy level of the first cat breed.
-* Energy level cat breed 1: 5
 * Log the first temperament of the temperaments of the second cat breed.
-* First temperament cat breed 2: Affectionate
 * Log the last temperament of the temperaments of the third cat breed.
-* Last temperament cat breed 3: Sensitive
 * Log the favorite food of the third cat breed
-* Favorite food cat breed 3: meaty things
