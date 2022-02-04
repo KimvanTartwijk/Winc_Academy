@@ -2,18 +2,19 @@
 An Exercise in Winc Academy's Web Development Course.
 
 ## Project Goal
+Getting to know function declarations, function expressions and arrow functions.
 
 ## Tools
 Javascript
 
 ## Project Requirements
-* take two numbers
-* each number will be squared (multiplied with itself)
-* the squared numbers will be added together
-* this sum will be squared again
-* the resulting value is returned
+* Take two numbers.
+* Each number will be squared (multiplied with itself).
+* The squared numbers will be added together.
+* This sum will be squared again.
+* The resulting value is returned.
 
 Write this function in all three styles:
-* function declaration
-* function expression
-* arrow function
+* Function declaration
+* Function expression
+* Arrow function
